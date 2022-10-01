@@ -27,19 +27,13 @@ ___
 ### How to Install
 
 #### Self Host:
-1. `bench get-app https://github.com/quantumbitcore/erpnext-restaurant.git`
+1. `bench get-app https://github.com/MuhammadZubair12/restaurant_management.git`
 2. `bench setup requirements`
 3. `bench build --app restaurant_management`
 4. `bench restart`
 5. `bench --site [site.name] install-app restaurant_management`
 6. `bench --site [site.name] migrate`
 
-#### Frappe Cloud:
->Available in your hosting on FrappeCloud [here](https://frappecloud.com/marketplace/apps/restaurant_management)
-
-___
-### How to Use
-> See the documentation [here](https://github.com/quantumbitcore/erpnext-restaurant/wiki)
 
 ___
 ### Compatibility
@@ -48,9 +42,3 @@ ___
 ___
 ERPNext Restaurant Management is based on [Frappe Framework](https://github.com/frappe/frappe).
 
-___
-
-### License
-> GNU / General Public License (see [license.txt](license.txt))
-
-> The POS Restaurant code is licensed under the GNU General Public License (v3).
